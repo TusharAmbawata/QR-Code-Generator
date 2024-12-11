@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./styles/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./styles/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./styles/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./styles/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <nav>
+    </nav>
+    <main>
+        <div class="container">
+            <p>Enter Your Text or URL</p>
+            <input type="text" placeholder="Text or URL" id="qrText">
+
+            <div id="imgBox">
+                <img src="" id="qrImage">
+            </div>
+
+            <button onclick="generateQr()">Generate QR Code</button>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="./styles/index.js"></script>
+</body>
+
+</html>
